@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/vehicles', vehiclesRouter);
-app.listen(8000, () => {
+app.listen(process.env.PORT || 8000, () => {
     console.log("server running")
 })
 
