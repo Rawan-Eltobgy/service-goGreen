@@ -1,1 +1,1 @@
-GET http://localhost:8000/vehicles?limit=2&page=3
+GET http://localhost:8000/vehicles?limit=7&page=1&filter=Ego / Eva / Esse
